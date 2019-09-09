@@ -18,11 +18,6 @@ const Margin = styled.a`
     margin-top: 6px;
   }
 `
-const Hover = styled.a`
-  &:hover {
-    background-color: red;
-  }
-`
 export default () => (
   <Container>
     <nav
@@ -75,12 +70,10 @@ export default () => (
                 <a className="navbar-link has-text-white">Games</a>
 
                 <div className="navbar-dropdown ">
-                  <Hover>
-                    {" "}
-                    <a className="navbar-item" href="https://www.pubg.com/">
-                      Pub G
-                    </a>
-                  </Hover>
+                  {" "}
+                  <a className="navbar-item" href="https://www.pubg.com/">
+                    Pub G
+                  </a>
                   <a className="navbar-item" href="https://www.callofduty.com/">
                     Call OF Duty
                   </a>
