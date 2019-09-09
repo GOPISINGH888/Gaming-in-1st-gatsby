@@ -18,10 +18,19 @@ const Margin = styled.a`
     margin-top: 6px;
   }
 `
+const Hover = styled.a`
+  &:hover {
+    background-color: red;
+  }
+`
 export default () => (
   <Container>
-    <nav className="navbar test" role="navigation" aria-label="main navigation">
-      <div className="navbar-brand">
+    <nav
+      className="navbar is-fixed-top test is-black"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div className="navbar-brand ">
         <a
           className="navbar-item  is-mobile is-centered"
           href="http://localhost:8000/"
@@ -49,24 +58,29 @@ export default () => (
         <div className="testb">
           <Margin>
             <div className="navbar-start  is-mobile is-centered ">
+              {" "}
               <a
                 className="navbar-item has-text-white"
                 href="http://localhost:8000"
               >
                 Home
-              </a>
+              </a>{" "}
               <a
                 className="navbar-item has-text-white"
                 href="http://localhost:8000/about"
               >
                 About us
               </a>
-              <div className="navbar-item has-dropdown is-hoverable">
+              <div className="navbar-item has-dropdown is-hoverable ">
                 <a className="navbar-link has-text-white">Games</a>
-                <div className="navbar-dropdown">
-                  <a className="navbar-item" href="https://www.pubg.com/">
-                    Pub G
-                  </a>
+
+                <div className="navbar-dropdown ">
+                  <Hover>
+                    {" "}
+                    <a className="navbar-item" href="https://www.pubg.com/">
+                      Pub G
+                    </a>
+                  </Hover>
                   <a className="navbar-item" href="https://www.callofduty.com/">
                     Call OF Duty
                   </a>
@@ -88,7 +102,6 @@ export default () => (
             </div>
           </Margin>
         </div>
-
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">

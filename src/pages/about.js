@@ -1,11 +1,12 @@
 import React from "react"
 import Banner from "../components/Banner"
+import Slider from "../components/Slider"
 import styled from "styled-components"
 const Title = styled.p`
   background-color: black;
 `
 const Fig = styled.div`
-  margin-top: 17px;
+  margin-top: 13px;
 `
 const Figr = styled.div`
   margin-top: 90px;
@@ -21,20 +22,24 @@ export default () => (
           height="04%"
         />{" "}
       </div>
+      <Slider />
       <div className="columns">
         <div className="column is-1">.</div>
         <div className="column is-6">
           <Figr>
-            <h1 className="is-size-2 has-text-white">What is Gaming ?</h1>
+            <h1 className="is-size-2 has-text-white">About us..</h1>
             <hr />
             <p className="has-text-grey">
-              Gaming refers to playing electronic games, whether through
-              consoles, computers, mobile phones or another medium altogether.
-              Gaming is a nuanced term that suggests regular gameplay, possibly
-              as a hobby. Although traditionally a solitary form of relaxation,
-              online multiplayer video games have made gaming a popular group
-              activity as well. A person who is into gaming is often called a
-              gamer or hardcore gamer.
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
             </p>
           </Figr>
           <Fig>
