@@ -11,8 +11,8 @@ export default () => (
   <div>
     <Banner />
     <Show />
-    <Slider />
     <Cards />
+    <Slider />
     <Cardss />
     <Cardsss />
     <Footer />
