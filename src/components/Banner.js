@@ -60,10 +60,7 @@ export default () => (
               >
                 Home
               </a>{" "}
-              <a
-                className="navbar-item has-text-white"
-                href="http://localhost:8000/about"
-              >
+              <a className="navbar-item has-text-white" href="/about">
                 About us
               </a>
               <div className="navbar-item has-dropdown is-hoverable ">
@@ -99,10 +96,7 @@ export default () => (
           <div className="navbar-item">
             <div className="buttons">
               <Button>
-                <a
-                  className="button is-rounded testa"
-                  href="http://localhost:8000/Form"
-                >
+                <a className="button is-rounded testa" href="/Form">
                   Login/Register
                 </a>
               </Button>
