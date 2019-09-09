@@ -6,6 +6,7 @@ import Cards from "../components/Cards"
 import Cardss from "../components/Cardss"
 import Cardsss from "../components/Cardsss"
 import Footer from "../components/Footer"
+import Lastfooter from "../components/Lastfooter"
 
 export default () => (
   <div>
@@ -16,5 +17,6 @@ export default () => (
     <Cardss />
     <Cardsss />
     <Footer />
+    <Lastfooter />
   </div>
 )
