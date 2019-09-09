@@ -10,8 +10,8 @@ import Footer from "../components/Footer"
 export default () => (
   <div>
     <Banner />
-    <Slider />
     <Show />
+    <Slider />
     <Cards />
     <Cardss />
     <Cardsss />
