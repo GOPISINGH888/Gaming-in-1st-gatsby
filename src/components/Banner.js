@@ -28,7 +28,7 @@ export default () => (
       <div className="navbar-brand ">
         <a
           className="navbar-item  is-mobile is-centered"
-          href="http://localhost:8000/"
+          href="/"
         >
           <img
             src="https://colorlib.com/preview/theme/gamewarrior/img/logo.png"
@@ -56,7 +56,7 @@ export default () => (
               {" "}
               <a
                 className="navbar-item has-text-white"
-                href="http://localhost:8000"
+                href="/"
               >
                 Home
               </a>{" "}
