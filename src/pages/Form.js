@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import Banner from "../components/Banner"
+import Lastfooter from "../components/Lastfooter"
 const Title = styled.div`
   margin-bottom: 30px;
   color: #ffb320;
@@ -111,6 +112,7 @@ export default () => (
           </div>
         </div>
       </div>
+      <Lastfooter />
     </Bgimg>
   </div>
 )

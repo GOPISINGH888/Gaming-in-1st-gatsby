@@ -2,6 +2,7 @@ import React from "react"
 import Banner from "../components/Banner"
 import Slider from "../components/Slider"
 import styled from "styled-components"
+import Lastfooter from "../components/Lastfooter"
 const Title = styled.p`
   background-color: black;
 `
@@ -63,5 +64,6 @@ export default () => (
         </div>
       </div>
     </Title>
+    <Lastfooter />
   </div>
 )

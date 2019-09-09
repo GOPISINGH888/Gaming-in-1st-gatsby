@@ -4,22 +4,20 @@ const Buttn = styled.a`
   background-color: #ffb320;
 `
 const Containr = styled.div`
-  background-color: grey;
+  background-color: black;
 `
 export default () => (
-  <div className="container">
+  <div className="foter">
     <Containr>
       <div className="columns">
         <div className="column">
-          <Buttn>
-            {" "}
-            <a className="has-text-black">About us</a>
+          <Buttn className="button is-rounded testa" href="/about">
+            About us
           </Buttn>
         </div>
         <div className="column">
-          <Buttn>
-            {" "}
-            <a className="has-text-black">regester</a>
+          <Buttn className="button is-rounded testa" href="/Form">
+            Login/Register
           </Buttn>
         </div>
       </div>

@@ -17,9 +17,9 @@ export default () => (
           </Bacground>
         </div>
 
-        <div className="column ">
+        <div className="column has-background-white">
           <marquee>
-            <p className=" is-size-4 has-text-black">
+            <p className=" is-size-4 has-text-black ">
               <span className="has-background-danger has-text-black">NEW </span>{" "}
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
               <span className="has-background-warning has-text-black">
