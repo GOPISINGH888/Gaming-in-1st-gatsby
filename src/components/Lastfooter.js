@@ -7,7 +7,7 @@ const Containr = styled.div`
   background-color: black;
 `
 export default () => (
-  <div className="foter is-hidden-disktop">
+  <div className="foter is-hidden-desktop">
     <Containr>
       <div className="columns">
         <div className="column">
