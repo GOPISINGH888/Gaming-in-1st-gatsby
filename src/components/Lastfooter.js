@@ -7,7 +7,7 @@ const Containr = styled.div`
   background-color: black;
 `
 export default () => (
-  <div className="foter">
+  <div className="foter is-hidden-tablet">
     <Containr>
       <div className="columns">
         <div className="column">
