@@ -1,6 +1,14 @@
 import React from "react"
 import styled from "styled-components"
+
+const Container=styled.div`
+.card{
+  height:27rem;
+}
+`;
+
 const Bimga = styled.div`
+  height: 27rem !importnat;
   background: url(https://colorlib.com/preview/theme/gamewarrior/img/features/1.jpg);
   background-size: cover;
 `
@@ -28,7 +36,7 @@ const Space = styled.div`
   padding-bottom: 100px;
 `
 export default () => (
-  <div className="has-background-black">
+  <Container className="has-background-black">
     <div className="container ">
       <Space>
         <div className="columns is-gapless">
@@ -117,5 +125,5 @@ export default () => (
         </div>
       </Space>
     </div>
-  </div>
+  </Container>
 )

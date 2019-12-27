@@ -12,9 +12,7 @@ export default () => (
   <div>
     <Banner />
     <Show />
-    {/*
     <Slider />
-    */}
     <Cards />
     <Cardss />
     <Cardsss />
