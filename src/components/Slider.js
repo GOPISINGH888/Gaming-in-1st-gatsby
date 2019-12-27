@@ -8,7 +8,7 @@ const Grey = styled.div`
 `
 const Lge = styled.p``
 export default () => (
-  <Grey>
+  <Grey className="is-hidden-desktop">
     <div className="containor  has-text-black-bis">
       <div className="columns is-gapless">
         <div className="column is-3 has-text-centered ">
